@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { CircleCheck, Gift } from "lucide-react";
-import PricingBanner from "./PricingBanner";
 import bottles2 from "@/assets/brainxcell-2-bottles.png";
 import bottles6 from "@/assets/brainxcell-6-bottles.png";
 import bottles3 from "@/assets/brainxcell-3-bottles.png";
@@ -448,9 +447,7 @@ const PricingSection = () => {
   return (
     <section className="esconder pt-4 sm:pt-6 pb-2 sm:pb-4 bg-[#1a1a1a]">
       <div className="container mx-auto px-3 sm:px-4">
-        {/* Pricing Banner */}
-        <PricingBanner />
-
+       
         {/* Packages Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5 sm:gap-4 max-w-5xl mx-auto items-start">
           {packages.map((pkg, index) => (
